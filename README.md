@@ -185,5 +185,27 @@ ERP (Enterprise Resource Planning) es un software de gestión empresarial que in
 ### ¿Salesforce es un ERP?
 No, Salesforce no es un ERP. Salesforce es una plataforma CRM que se enfoca en gestionar las relaciones con los clientes y la automatización de ventas, marketing y servicio al cliente, sin embargo, puede integrarse con sistemas ERP para proporcionar una solución más completa.
 
+## Cargue en DataLoader
+
+1. Como primer paso se instala el aplicativo en el PC, y se configura con delimitadores ";" para que pueda leer correctamente el archivo, posteriormente, se carga el archivo en .csv (Account Object)
+   ![image](https://github.com/SantiagoBL22/Taller-de-Salesforce-Administrador---ProContacto-RRHH/assets/174379337/f7a47270-8ad1-4352-81ee-c5d3640aa41f)
+2. Luego se relacionan los campos del objeto:
+   ![image](https://github.com/SantiagoBL22/Taller-de-Salesforce-Administrador---ProContacto-RRHH/assets/174379337/86445d17-a235-4c89-a310-7c7bb87c2e7a)
+3. El archivo de importación se deja en una ruta por aparte para identificar las que cargaron correctamente y las que no, como resultado, arroja que el cargue masivo fue ejecutado correctamente:
+![image](https://github.com/SantiagoBL22/Taller-de-Salesforce-Administrador---ProContacto-RRHH/assets/174379337/b8a38d50-3878-441e-914b-93888bb53731)
+4. Se muestra un ejemplo de como se ve en Salesforce:
+![image](https://github.com/SantiagoBL22/Taller-de-Salesforce-Administrador---ProContacto-RRHH/assets/174379337/2399b559-16e3-457a-be80-5f5cb8922ba0)
+![image](https://github.com/SantiagoBL22/Taller-de-Salesforce-Administrador---ProContacto-RRHH/assets/174379337/08e8bcd7-8f26-4522-af08-517b13589f54)
+5. Se realiza el mismo proceso con el objeto "Opportunity" teniendo en cuenta el formato de fecha YYYY-MM-DD:
+![image](https://github.com/SantiagoBL22/Taller-de-Salesforce-Administrador---ProContacto-RRHH/assets/174379337/3a93e3b7-9410-40cd-ba3a-6ae698915188)
+
+
+   
+
+
+
+
+
+
 
 
